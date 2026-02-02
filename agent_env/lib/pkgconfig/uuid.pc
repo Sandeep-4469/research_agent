@@ -1,0 +1,11 @@
+prefix=/data1/sandeep_projects/agentic/agent_env
+exec_prefix=/data1/sandeep_projects/agentic/agent_env
+libdir=/data1/sandeep_projects/agentic/agent_env/lib
+includedir=/data1/sandeep_projects/agentic/agent_env/include
+
+Name: uuid
+Description: Universally unique id library
+Version: 2.32.1
+Requires:
+Cflags: -I${includedir}/uuid
+Libs: -L${libdir} -luuid

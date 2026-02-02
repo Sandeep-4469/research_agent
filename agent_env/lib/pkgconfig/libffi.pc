@@ -1,0 +1,11 @@
+prefix=/data1/sandeep_projects/agentic/agent_env
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+toolexeclibdir=${libdir}
+includedir=/data1/sandeep_projects/agentic/agent_env/include
+
+Name: libffi
+Description: Library supporting Foreign Function Interfaces
+Version: 3.4.4
+Libs: -L${toolexeclibdir} -lffi
+Cflags: -I${includedir}
